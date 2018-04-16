@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class PagesControllerTest < ActionDispatch::IntegrationTest
-  test "should get home" do
-    get pages_home_url
+  test "should get hime" do
+    get pages_hime_url
     assert_response :success
   end
 
